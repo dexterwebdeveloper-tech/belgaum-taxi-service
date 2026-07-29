@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+import './css/rentol.css';
+// import './css/rentol-rtl.css';
+import './css/rentol-custom-rtl.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

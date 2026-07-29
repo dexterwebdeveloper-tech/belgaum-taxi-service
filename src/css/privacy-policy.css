@@ -1,0 +1,89 @@
+.privacy-section {
+    background-color: #f1f1f1; /* Slightly different background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px; /* Add padding for spacing */
+}
+
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.privacy-title {
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-content h3 {
+    color: #5b2d8c; /* Unique color for headings */
+}
+
+.privacy-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #D0191F; /* Unique color for important text */
+    font-weight: bold; /* Make the highlighted text bold */
+}
+
+.contact-info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #D0191F;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info a {
+    color: #D0191F;
+    text-decoration: none;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.privacy-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+/* Privacy Policy Section */
+.privacy-policy {
+    padding: 40px 15px;
+    background-color: #f8f9fa; /* Light background for the section */
+}
+
+/* Content Area */
+.privacy-policy .col-md-7 {
+    /* flex: 0 0 58.3333%; */
+    /* max-width: 58.3333%; */
+    padding: 20px; /* Add padding */
+    background-color: #ffffff; /* White background for content area */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+/* Other styles remain the same... */
