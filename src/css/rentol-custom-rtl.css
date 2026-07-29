@@ -72,7 +72,7 @@ body {
 .booking-car-one__form__text::after,
 .testimonials-one__custome-navs button,
 .testimonials-card--one::after {
-  transform: rotateY(-180deg);
+  /* transform: rotateY(-180deg); */
 }
 
 .booking-car-one__form__control .booking-car-one__btn:hover span:last-child {

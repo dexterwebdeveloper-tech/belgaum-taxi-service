@@ -107,7 +107,7 @@ const handleSubmit = async (e) => {
 
           <div className="text-center mb-5">
 
-            <span className="small-title">
+            <span className="small-title text-dark">
               BELGAUM TAXI SERVICE
             </span>
 
@@ -346,7 +346,7 @@ const handleSubmit = async (e) => {
                   ) : (
                     <>
                       <i className="fas fa-paper-plane me-2"></i>
-                      Get Instant Quote
+                      Submit Now
                     </>
                   )}
                 </button>

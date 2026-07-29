@@ -76,6 +76,7 @@ import Belgaumtosirsicabstaxi from './pages/Belgaum to Sirsi Cabs Taxi';
 import Belgaumtopanindiacabservice from './pages/Belgaum to Pan India Cab Service';
 import Belgaumtokolhapurcab from './pages/Belgaum to Kolhapur Cab';
 import Belgaumtoathnicabbooking from './pages/Belgaum to Athani Cab Booking';
+import Career from './pages/Career';
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/enquiry" element={<Enquiry />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/career" element={<Career />} />
         <Route path="/Cab-Service-in-Belgaum" element={<Cabserviceinbelgaum />} />
 
 <Route path="/Belgaum-Taxi-Service" element={<Belgaumtaxiservice />} />
