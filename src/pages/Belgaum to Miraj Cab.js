@@ -424,7 +424,7 @@ const productSchema = {
                 <div className="container-fluid" >
                     <div className="row container-fluid">
                         <div className="col-12 col-md-7 bg-foootr">
-                            <img src='/images/keyword/.jpg' alt='img' className='img-fluid' />
+                            <img src='/images/keyword/46.jpg' alt='img' className='img-fluid' />
                             <h3 className="py-1"
                                 style={{
                                     color: '#183765', // Red color for the title 
@@ -496,7 +496,7 @@ const productSchema = {
 
                             <div id="why-choose-section" className="why-choose-section">
 
-                                <h2 className="section-title text-white">
+                                <h2 className="section-title text-dark">
                                     Why Choose <span>Belgaum Taxi Service</span>
                                 </h2>
 

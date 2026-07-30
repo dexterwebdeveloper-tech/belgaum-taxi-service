@@ -4,21 +4,21 @@ const BlogSix = () => {
 
   const blogs = [
     {
-      image: "/images/blog/blog-6-1.jpg",
+      image: "/images/keyword/1.jpg",
       title: "Cab Service in Belgaum",
       link: "/Cab-Service-in-Belgaum",
       date: "20",
     },
 
     {
-      image: "/images/blog/blog-6-1.jpg",
+      image: "/images/keyword/3.jpg",
       title: "Belgaum to Goa Cab",
       link: "/Belgaum-to-Goa-Cab",
       date: "20",
     },
 
     {
-      image: "/images/blog/blog-6-1.jpg",
+      image: "/images/keyword/23.jpg",
       title: "Belgaum to Kolhapur Cab",
       link: "/Belgaum-to-Kolhapur-Cab",
       date: "20",
@@ -75,7 +75,7 @@ const BlogSix = () => {
               >
 
 
-                <div className="blog-six__item">
+                <div className="blog-six__item borderr">
 
 
 
@@ -101,7 +101,7 @@ const BlogSix = () => {
 
 
 
-                  <div className="blog-six__item__content">
+                  <div className="blog-six__item__content ">
 
 
 
@@ -164,15 +164,7 @@ const BlogSix = () => {
 
 
 
-                    <div className="blog-six__item__date">
-
-                      <span>
-                        {blog.date}
-                      </span>
-
-                      July
-
-                    </div>
+                
 
 
 

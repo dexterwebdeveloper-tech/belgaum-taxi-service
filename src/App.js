@@ -77,6 +77,11 @@ import Belgaumtopanindiacabservice from './pages/Belgaum to Pan India Cab Servic
 import Belgaumtokolhapurcab from './pages/Belgaum to Kolhapur Cab';
 import Belgaumtoathnicabbooking from './pages/Belgaum to Athani Cab Booking';
 import Career from './pages/Career';
+import Booking from './pages/Booking';
+import OurNetwork from './pages/OurNetwork';
+import Packages from './pages/Packages';
+import Ourfleets from './pages/Ourfleets';
+import ServiceSection from './pages/ServiceSection';
 
 function App() {
   return (
@@ -91,8 +96,13 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/enquiry" element={<Enquiry />} />
+        <Route path="/services" element={<ServiceSection />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/packages" element={<Packages />} />
+        <Route path="/our-fleet" element={<Ourfleets />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/our-network" element={<OurNetwork />} />
         <Route path="/Cab-Service-in-Belgaum" element={<Cabserviceinbelgaum />} />
 
 <Route path="/Belgaum-Taxi-Service" element={<Belgaumtaxiservice />} />

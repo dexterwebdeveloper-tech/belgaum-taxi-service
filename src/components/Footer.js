@@ -46,19 +46,19 @@ Belgaum, Karnataka - 590017.
 
 
     <li className="d-flex gap-3">
-              <a href="https://www.instagram.com/aaradhyatravels99/" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/belgaumtaxiservices/" target="_blank" rel="noreferrer">
                 <i className="fab fa-instagram text-white"></i>
               </a>
 
-              <a href="https://www.facebook.com/profile.php?id=61590624514268" target="_blank" rel="noreferrer">
+              <a href="https://www.facebook.com/profile.php?id=61592579373582" target="_blank" rel="noreferrer">
                 <i className="fab fa-facebook-f text-white"></i>
               </a>
 
-              <a href="https://x.com/aaradhyatravel9" target="_blank" rel="noreferrer">
+              <a href="https://x.com/belgaum_taxi" target="_blank" rel="noreferrer">
                 <i className="fab fa-twitter text-white"></i>
               </a>
 
-               <a href="https://www.pinterest.com/aaradhyatravels1111/" target="_blank" rel="noreferrer">
+               <a href="https://in.pinterest.com/belgaumtaxiservices/" target="_blank" rel="noreferrer">
                 <i className="fab fa-pinterest-p text-white"></i>
               </a>
             </li>

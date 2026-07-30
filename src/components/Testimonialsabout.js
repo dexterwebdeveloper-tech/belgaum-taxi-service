@@ -6,250 +6,154 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Testimonialsabout = () => {
-
   const testimonials = [
     {
-      image: "assets/images/resources/testi-2-1.jpg",
-      name: "Kathryn Murphy",
-      role: "Web Developer",
+      name: "Mr. Ramesh Patil",
+      role: "Local Customer",
+      review:
+        "Excellent taxi service in Belgaum. The driver arrived on time, the cab was clean, and the journey was comfortable. I highly recommend Belgaum Taxi Service to everyone.",
     },
     {
-      image: "assets/images/resources/testi-2-2.jpg",
-      name: "John Smith",
-      role: "Designer",
+      name: "Ms. Priya Desai",
+      role: "Airport Transfer",
+      review:
+        "Booked an airport taxi from Belgaum Taxi Service. The driver was punctual, professional, and the fare was reasonable. A hassle-free experience.",
     },
     {
-      image: "assets/images/resources/testi-2-3.jpg",
-      name: "Emily Watson",
-      role: "Manager",
+      name: "Mr. Suresh Kulkarni",
+      role: "Outstation Traveller",
+      review:
+        "We travelled from Belgaum to Goa with our family. The vehicle was neat, spacious, and the driver ensured a safe and pleasant journey.",
     },
     {
-      image: "assets/images/resources/testi-2-4.jpg",
-      name: "David Miller",
-      role: "Developer",
+      name: "Ms. Sneha Joshi",
+      role: "Tourist",
+      review:
+        "Amazing local sightseeing experience. The driver was friendly and took us to all the famous places around Belgaum. Highly satisfied with the service.",
     },
     {
-      image: "assets/images/resources/testi-2-1.jpg",
-      name: "Robert Lee",
-      role: "CEO",
+      name: "Mr. Amit Sharma",
+      role: "Business Client",
+      review:
+        "I frequently book taxis for business trips. Their service is reliable, on time, and the drivers are very courteous. Highly recommended.",
     },
     {
-      image: "assets/images/resources/testi-2-2.jpg",
-      name: "Sophia Brown",
-      role: "Designer",
+      name: "Ms. Neha Kulkarni",
+      role: "Family Customer",
+      review:
+        "Belgaum Taxi Service made our family trip comfortable and stress-free. Clean cab, affordable pricing, and excellent customer support.",
     },
   ];
 
-
   return (
     <section className="testimonials-one section-space" id="testimonial">
-
+      {/* Background */}
       <div
         className="testimonials-one__bg"
         style={{
           backgroundImage:
-            "url(assets/images/backgrounds/testimonials-bg-2-1.png)",
+            "url(/images/backgrounds/testimonials-bg-2-1.png)",
         }}
       ></div>
 
-
       <div className="container">
-
+        {/* Section Heading */}
         <div className="testimonials-one__top">
-
           <div className="row align-items-end">
-
             <div className="col-lg-8">
-
               <div className="sec-title sec-title--two text-start">
-
                 <h6 className="sec-title__tagline">
-                  our testimonials
+                  CUSTOMER TESTIMONIALS
                 </h6>
 
                 <h3 className="sec-title__title">
-                  what peoples say about <br />
-                  rentol
+                  What Our Customers Say <br />
+                  About Belgaum Taxi Service
                 </h3>
-
               </div>
-
             </div>
-
 
             <div className="col-lg-4">
-              <div className="testimonials-one__custome-navs">
-              </div>
+              <div className="testimonials-one__custome-navs"></div>
             </div>
-
-
           </div>
-
         </div>
-
       </div>
 
-
-
       <div className="testimonials-one__inner">
-
-
         <Swiper
-
           modules={[Navigation, Autoplay]}
-
           spaceBetween={30}
-
           loop={true}
-
           speed={700}
-
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
-
-
           navigation={{
             nextEl: ".testimonial-next",
             prevEl: ".testimonial-prev",
           }}
-
-
           breakpoints={{
-
-            0:{
-              slidesPerView:1
+            0: {
+              slidesPerView: 1,
             },
-
-            768:{
-              slidesPerView:1
+            768: {
+              slidesPerView: 1,
             },
-
-            992:{
-              slidesPerView:2
+            992: {
+              slidesPerView: 2,
             },
-
-            1200:{
-              slidesPerView:2
+            1200: {
+              slidesPerView: 2,
             },
-
-            1400:{
-              slidesPerView:3
-            }
-
+            1400: {
+              slidesPerView: 3,
+            },
           }}
-
           className="testimonials-one__carousel"
-
         >
+          {testimonials.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="testimonials-one__item">
+                <div className="testimonials-card testimonials-card--one">
+                  {/* Review */}
+                  <p className="testimonials-card__text">
+                    "{item.review}"
+                  </p>
 
+                  {/* Customer Details */}
+                  <div className="testimonials-crd__content">
+                    <div className="testimonialscard__author">
+                      <h4 className="testimonials-card__author__title">
+                        {item.name}
+                      </h4>
 
-          {
-            testimonials.map((item,index)=>(
-
-              <SwiperSlide key={index}>
-
-
-                <div className="testimonials-one__item">
-
-
-                  <div className="testimonials-card testimonials-card--one">
-
-
-                    <div className="testimonials-card__top">
-
-                      <div className="testimonials-card__image">
-
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                        />
-
-                      </div>
-
-
-                      <div className="testimonials-card__top__video">
-
-                        <a
-                          href="https://www.youtube.com/watch?v=h9MbznbxlLc"
-                          className="testimonials-card__video"
-                        >
-                          <i className="icon-play-buttton"></i>
-                        </a>
-
-                      </div>
-
+                      <span className="testimonials-card__author__dec">
+                        {item.role}
+                      </span>
                     </div>
 
-
-
-                    <p className="testimonials-card__text">
-                      “Consectetur adipiscing elit. Integer nunc viverra
-                      laoreet est porta pretium metus aliquam eget.”
-                    </p>
-
-
-
-                    <div className="testimonials-card__content">
-
-
-                      <div className="testimonials-card__author">
-
-                        <h4 className="testimonials-card__author__title">
-                          {item.name}
-                        </h4>
-
-
-                        <span className="testimonials-card__author__dec">
-                          {item.role}
-                        </span>
-
-                      </div>
-
-
-
-                      <div className="testimonials-card__rating">
-
-                        {
-                          [...Array(5)].map((_,i)=>(
-                            <i
-                              className="fa fa-star"
-                              key={i}
-                            ></i>
-                          ))
-                        }
-
-                      </div>
-
-
+                    {/* Rating */}
+                    <div className="testimonials-card__rating">
+                      {[...Array(5)].map((_, i) => (
+                        <i className="fa fa-star" key={i}></i>
+                      ))}
                     </div>
-
-
-
-                    <div className="testimonials-card__quite">
-                      <i className="icon-quite"></i>
-                    </div>
-
-
                   </div>
 
-
+                  {/* Quote Icon */}
+                  <div className="testimonials-card__quite">
+                    <i className="fas fa-quote-right"></i>
+                  </div>
                 </div>
-
-
-              </SwiperSlide>
-
-            ))
-          }
-
-
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
 
-
-        {/* Custom buttons */}
+        {/* Navigation Buttons */}
         <div className="testimonial-buttons">
-
           <button className="testimonial-prev">
             <span className="icon-arrow-left-2"></span>
           </button>
@@ -257,38 +161,10 @@ const Testimonialsabout = () => {
           <button className="testimonial-next">
             <span className="icon-arrow-right-2"></span>
           </button>
-
         </div>
-
-
       </div>
-
-
-
-
-      {/* <div className="testimonials-one__image">
-
-        <img
-          src="assets/images/resources/car-2-1.jpg"
-          alt="car"
-        />
-
-      </div>
-
-
-      <div className="testimonials-one__image__line">
-
-        <img
-          src="assets/images/shapes/line-round.png"
-          alt="line"
-        />
-
-      </div> */}
-
-
     </section>
   );
 };
-
 
 export default Testimonialsabout;

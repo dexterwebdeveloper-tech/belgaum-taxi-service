@@ -43,7 +43,7 @@ export default function ContactShowcase({
   const heading =
     keyword && keyword.trim() !== ""
       ? `${keyword} Contact Number`
-      : "Trustline Travels Contact Number";
+      : "Belgaum Taxi Services Contact Number";
 
   return (
     <section className="contactWrap">

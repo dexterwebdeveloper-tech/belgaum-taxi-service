@@ -3,7 +3,7 @@ import React from "react";
 const FunfactOne = () => {
   const facts = [
     {
-      number: "1200",
+      number: "25",
       suffix: "",
       title: "Vehicle Fleet",
       bg: "/images/resources/funfact-bg-1-1.jpg",

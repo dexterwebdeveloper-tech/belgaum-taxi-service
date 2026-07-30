@@ -1,0 +1,256 @@
+/* ==============================
+   NETWORK GRID
+============================== */
+
+.network-grid{
+    display:grid;
+    grid-template-columns:48% 52%;
+    gap:35px;
+    align-items:start;
+}
+
+.network-map{
+    position:sticky;
+    top:100px;
+}
+
+.network-cards{
+    width:100%;
+}
+
+/* ==============================
+   MAP BOX
+============================== */
+
+.india-map-box{
+    position:relative;
+    background:#151515;
+    border-radius:25px;
+    overflow:hidden;
+    border:1px solid rgba(255,193,7,.15);
+    padding:20px;
+    min-height:900px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.india-map{
+    width:100%;
+    height:700px;
+    display:block;
+}
+
+/* ==============================
+   COVERAGE
+============================== */
+
+.coverage-box{
+    margin-top:25px;
+    background:#1d1d1d;
+    border-radius:20px;
+    padding:20px;
+    border:1px solid rgba(255,193,7,.15);
+}
+
+.coverage-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#fff;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.coverage-item:last-child{
+    border:none;
+}
+
+.coverage-item svg{
+    color:#FFC107;
+    font-size:22px;
+}
+
+/* ==============================
+   NETWORK CARDS
+============================== */
+
+.network-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.network-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    background:#181818;
+    border-radius:18px;
+    padding:22px;
+    border:1px solid rgba(255,193,7,.12);
+    transition:.35s;
+}
+
+.network-card:hover{
+    transform:translateY(-6px);
+    border-color:#FFC107;
+    box-shadow:0 15px 35px rgba(255,193,7,.15);
+}
+
+.network-icon{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#FFC107;
+    color:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    flex-shrink:0;
+}
+
+.network-content{
+    flex:1;
+}
+
+.network-content h4{
+    color:#fff;
+    margin-bottom:5px;
+    font-size:24px;
+}
+
+.network-content span{
+    color:#FFC107;
+    display:block;
+    margin-bottom:6px;
+}
+
+.network-content p{
+    color:#cfcfcf;
+    margin:0;
+}
+
+.network-arrow{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#252525;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#FFC107;
+}
+
+.network-card:hover .network-arrow{
+    background:#FFC107;
+    color:#111;
+}
+
+/* ==============================
+   SVG
+============================== */
+
+.route-line{
+    stroke:#FFC107;
+    stroke-width:2;
+    stroke-dasharray:8;
+    animation:routeMove 2s linear infinite;
+}
+
+@keyframes routeMove{
+
+    from{
+        stroke-dashoffset:0;
+    }
+
+    to{
+        stroke-dashoffset:-16;
+    }
+
+}
+
+.belgaum-dot{
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.3);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+.network-footer{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:60px;
+}
+
+.footer-box{
+    background:#181818;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    border:1px solid rgba(255,193,7,.12);
+}
+
+.footer-box svg{
+    color:#FFC107;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.footer-box h4{
+    color:#fff;
+    margin-bottom:12px;
+}
+
+.footer-box p{
+    color:#cfcfcf;
+    line-height:28px;
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media(max-width:991px){
+
+.network-grid{
+    grid-template-columns:1fr;
+}
+
+.network-map{
+    position:relative;
+    top:0;
+}
+
+.india-map-box{
+    min-height:auto;
+}
+
+.india-map{
+    height:500px;
+}
+
+.network-footer{
+    grid-template-columns:1fr;
+}
+
+}

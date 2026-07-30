@@ -35,7 +35,7 @@
 }
 
 .highlight {
-    color: #D0191F; /* Unique color for important text */
+    color: #F4B31B; /* Unique color for important text */
     font-weight: bold; /* Make the highlighted text bold */
 }
 
@@ -45,7 +45,7 @@
 }
 
 .contact-info h2 {
-    color: #D0191F;
+    color: #F4B31B;
 }
 
 .contact-info ul {
@@ -54,7 +54,7 @@
 }
 
 .contact-info a {
-    color: #D0191F;
+    color: #F4B31B;
     text-decoration: none;
 }
 

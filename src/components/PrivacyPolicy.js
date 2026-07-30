@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
 
             <img 
               className="img-fluid" 
-              src="/images/privacy.png" 
+              src="/images/privacy.jpg" 
               alt="Privacy Policy"
             />
 

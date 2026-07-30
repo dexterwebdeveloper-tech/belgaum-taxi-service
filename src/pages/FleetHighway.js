@@ -24,7 +24,7 @@ const FleetHighway = () => {
           {lane.map((src, i) => (
             <figure className="car-card" key={`t-${i}`}>
               <img src={src} alt={`Fleet ${i + 1}`} />
-              <figcaption>Trustline Travels</figcaption>
+              <figcaption>Belgaum Taxi Services</figcaption>
             </figure>
           ))}
         </div>
@@ -36,7 +36,7 @@ const FleetHighway = () => {
           {lane.map((src, i) => (
             <figure className="car-card" key={`b-${i}`}>
               <img src={src} alt={`Fleet ${i + 1}`} />
-              <figcaption>Trustline Travels</figcaption>
+              <figcaption>Belgaum Taxi Services</figcaption>
             </figure>
           ))}
         </div>

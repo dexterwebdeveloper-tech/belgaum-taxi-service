@@ -12,7 +12,7 @@ const TestimonialSectionKeyword = ({
 }) => {
   const renderStars = (count) => {
     return Array.from({ length: count }).map((_, i) => (
-      <span key={i} style={{ color: "#0D74B9", marginRight: "2px" }}>
+      <span key={i} style={{ color: "#F5AD1B", marginRight: "2px" }}>
         <i className="fa fa-star"></i>
       </span>
     ));
@@ -72,7 +72,7 @@ const TestimonialSectionKeyword = ({
             <div className="section-head">
               <div
                 className="twm-sm-title"
-                style={{ color: "#0D74B9", fontWeight: "600" }}
+                style={{ color: "#F5AD1B", fontWeight: "600" }}
               >
                 {subtitle}
               </div>
@@ -112,7 +112,7 @@ const TestimonialSectionKeyword = ({
                       top: "-20px",
                       right: "10px",
                       fontSize: "30px",
-                      color: "#0D74B9",
+                      color: "#F5AD1B",
                     }}
                   >
                     <i className="fa fa-quote-right"></i>

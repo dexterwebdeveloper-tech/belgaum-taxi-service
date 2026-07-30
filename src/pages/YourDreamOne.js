@@ -15,14 +15,14 @@ const YourDreamOne = () => {
             >
               <div className="your-dream-one__thumb__item">
                 <img
-                  src="/images/about/our-driver-1-1.jpg"
+                  src="/images/aboutt.png"
                   alt="Belgaum Taxi Driver"
                 />
               </div>
 
               <div className="your-dream-one__thumb__item-small">
                 <img
-                  src="/images/about/our-driver-1-2.jpg"
+                  src="/images/abt.png"
                   alt="Belgaum Taxi Service"
                 />
               </div>

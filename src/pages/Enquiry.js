@@ -35,7 +35,7 @@ const handleSubmit = async (e) => {
   const data = new FormData();
 
   data.append("access_key", "ee23a113-a611-4abe-8b03-b4a343168bb7");
-  data.append("subject", "New Trustline Travels Enquiry");
+  data.append("subject", "New Belgaum Taxi Services Enquiry");
 
   // Send all form fields
   Object.keys(formData).forEach((key) => {

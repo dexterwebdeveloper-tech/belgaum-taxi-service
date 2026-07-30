@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel';
+// import Carousel from './Carousel';
 import HowRentTwo from './HowRentTwo';
 import BookingCar from '../pages/BookingCar';
 import YourDreamOne from '../pages/YourDreamOne';
@@ -11,6 +11,7 @@ import FleetCTA from '../pages/FleetCTA';
 import Testimonials from '../pages/Testimonials';
 import CtaTwo from '../pages/CtaTwo';
 import BlogSix from '../pages/BlogSix';
+import VideoSlider from './VideoSlider';
 
 
 
@@ -21,14 +22,13 @@ const HeroSection = () => {
   return (
 
     <div className="th-hero-wrapper hero-1" id="hero">
-<Carousel/>
+{/* <Carousel/> */}
+<VideoSlider/>
 <HowRentTwo/>
 <BookingCar/>
 <YourDreamOne/>
-{/* <ExploreOurCars/> */}
 <LuxuryCar/>
-{/* <AskedQuestion/> */}
-{/* <FAQSection/> */}
+
 <FleetCTA/>
 <Testimonials/>
 <CtaTwo/>

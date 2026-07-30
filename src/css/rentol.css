@@ -625,8 +625,8 @@ h6 {
 }
 
 .section-space {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media (max-width: 767px) {
   .section-space {
@@ -3154,6 +3154,7 @@ h6 {
 .blog-three {
   position: relative;
   z-index: 1;
+  
 }
 
 .blog-card-six {
@@ -3294,6 +3295,7 @@ h6 {
 .blog-six {
   position: relative;
   z-index: 1;
+  
   background-color: #EFEFEF;
   padding-top: 250px;
 }
@@ -3327,7 +3329,7 @@ h6 {
 }
 .blog-six__item {
   background-color: var(--rentol-white, #fff);
-  padding: 30px;
+  padding: 15px;
   border-radius: 20px;
 }
 .blog-six__item__image {
@@ -3385,6 +3387,7 @@ h6 {
 }
 .blog-six__item__title a {
   color: inherit;
+  color: var(--rentol-base, #F2AF1E);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
 }
@@ -6559,7 +6562,7 @@ body.megamenu-popup-active .mobile-nav__content {
   flex-direction: column;
   height: 270px;
   width: 100%;
-  background-color: var(--rentol-gray, #EFEFEF);
+  background-color: #F4B31B;
   border: 1px solid var(--rentol-gray, #EFEFEF);
   transition: all 0.4s ease-in-out;
 }
@@ -9823,7 +9826,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: var(--rentol-white, #fff);
   padding: 6.5px 15px;
   padding-right: 42px;
-  margin-right: -28px;
+  /* margin-right: -28px; */
   position: relative;
 }
 .booking-car-one__form__text::after {
@@ -12175,7 +12178,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-color: var(--rentol-black, #212121);
   opacity: 0.5;
-  cursor: url(../images/close.png), auto;
+  /* cursor: url(../images/close.png), auto; */
 }
 .sidebar-one__close {
   position: absolute;
@@ -14687,7 +14690,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (min-width: 1200px) {
   .luxury-car-one--two {
-    padding-top: 185px;
+    /* padding-top: 185px; */
     padding-bottom: 145px;
   }
 }
@@ -17838,7 +17841,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-color: var(--rentol-black, #212121);
   opacity: 0.3;
-  cursor: url(../images/close.png), auto;
+  /* cursor: url(../images/close.png), auto; */
 }
 
 .mobile-nav__content {
@@ -18030,7 +18033,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition-delay: 0.7s;
   background-color: #000;
   opacity: 0.9;
-  cursor: url(../images/close.png), auto;
+  /* cursor: url(../images/close.png), auto; */
 }
 @media (max-width: 767px) {
   .search-popup__overlay {

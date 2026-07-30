@@ -114,14 +114,14 @@ const CtaTwo = () => {
 
 
 
-            <div className="cta-two__thumb__item-two">
+            {/* <div className="cta-two__thumb__item-two">
 
               <img
                 src="/images/resources/card-car.png"
                 alt="Taxi Car"
               />
 
-            </div>
+            </div> */}
 
 
 

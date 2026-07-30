@@ -1,10 +1,15 @@
 .page-headder {
     position: relative;
-    /* background-image: url("../images/p  age-header-bg.jpg"); */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("../public/images/hero.jpg");
+
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 160px 0;
+    padding: 130px 0;
     overflow: hidden;
     z-index: 1;
 }
@@ -83,7 +88,7 @@
 .sectionLead {
     font-size: 26px;
     font-weight: 700;
-    color: #59A4C8;
+    color: #F9B01B;
     margin-bottom: 25px;
     position: relative;
     padding-left: 15px;
@@ -128,7 +133,7 @@
 
 .placeCard:hover {
     transform: translateY(-5px);
-    border-color: #59A4C8;
+    border-color: #F9B01B;
     box-shadow: 0 12px 30px rgba(247, 148, 42, 0.18);
 }
 
@@ -162,7 +167,7 @@
     margin: 0 0 8px;
     font-size: 20px;
     font-weight: 700;
-    color: #59A4C8;
+    color: #F9B01B;
     transition: 0.3s ease;
 }
 
@@ -177,7 +182,7 @@
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: #59A4C8;
+    background: #F9B01B;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -281,7 +286,7 @@
     background: rgba(255, 255, 255, 0.95);
     padding: 22px 25px;
     border-radius: 12px;
-    border-left: 5px solid #59A4C8;
+    border-left: 5px solid #F9B01B;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -316,7 +321,7 @@
 
 .service-content h4 {
     margin: 0;
-    color: #59A4C8;
+    color: #F9B01B;
     font-size: 20px;
     font-weight: 700;
     transition: 0.3s ease;
@@ -348,7 +353,7 @@
     width: 45px;
     height: 45px;
     border-radius: 10px;
-    background: #59A4C8;
+    background: #F9B01B;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -435,7 +440,7 @@
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-    color: #59A4C8;
+    color: #F9B01B;
     margin-bottom: 40px;
 }
 
@@ -493,7 +498,7 @@
 
 
 .bento-card h4 {
-    color: #59A4C8;
+    color: #0e0f10;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -515,7 +520,7 @@
     position: absolute;
     width: 0;
     height: 3px;
-    background: #59A4C8;
+    background: #222628;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -590,7 +595,7 @@
 
 .keyword-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin: 40px 0;
     padding: 30px;
@@ -619,7 +624,7 @@
     transform: translateY(-5px);
     border-color: #F7942A;
     box-shadow: 0 10px 25px rgba(247,148,42,0.18);
-    color: #59A4C8;
+    color: #F9B01B;
 }
 
 
@@ -639,7 +644,7 @@
 
 
 .keyword-item:hover .keyword-bullet {
-    background: #59A4C8;
+    background: #F9B01B;
 }
 
 
@@ -737,18 +742,18 @@
 /* Question Hover */
 
 .accordion-button {
-    color: #59A4C8 !important;
+    color: #F9B01B !important;
 }
 
 .accordion-button {
-    background: linear-gradient(90deg,#59A4C8,#4b95b8) !important;
+    background: linear-gradient(90deg,#F9B01B,#2f3538) !important;
     color: #ffffff !important;
    
 }
 /* Active Question */
 
 .accordion-button:not(.collapsed) {
-    background: linear-gradient(90deg,#59A4C8,#4b95b8) !important;
+    background: linear-gradient(90deg,#F9B01B,#2f3538) !important;
     color: #ffffff !important;
 }
 
@@ -903,7 +908,7 @@
     min-width: 75px;
     border-radius: 12px;
     overflow: hidden;
-    border: 3px solid #59A4C8;
+    border: 3px solid #F9B01B;
 }
 
 
@@ -938,7 +943,7 @@
 
 
 .routeItem:hover .routeTitle {
-    color: #59A4C8;
+    color: #F9B01B;
 }
 
 
@@ -965,7 +970,7 @@
     height: 35px;
     min-width: 35px;
     border-radius: 50%;
-    background: #59A4C8;
+    background: #F9B01B;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -1042,7 +1047,7 @@
 
 .pc-title {
     text-align: center;
-    color: #59A4C8;
+    color: #F9B01B;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 35px;
@@ -1066,7 +1071,7 @@
     border-radius: 16px;
     text-align: left;
     box-shadow: 0 6px 20px rgba(89,164,200,0.12);
-    border-left: 5px solid #59A4C8;
+    border-left: 5px solid #F9B01B;
     transition: .3s ease;
 }
 
@@ -1093,7 +1098,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    background:#59A4C8;
+    background:#F9B01B;
     color:#fff;
     border-radius:50%;
     font-size:18px;
@@ -1152,7 +1157,7 @@
 
 .pc-email {
     display:block;
-    color:#59A4C8;
+    color:#F9B01B;
     font-size:16px;
     font-weight:600;
     text-decoration:none;
@@ -2851,4 +2856,1383 @@ font-size:14px;
 
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+/*==============================
+ Belgaum Taxi Service Booking
+ Black & Yellow Premium Theme
+===============================*/
+
+:root{
+    --primary:#FDB813;
+    --secondary:#111111;
+    --light:#ffffff;
+    --text:#555;
+    --border:#ececec;
+}
+
+/*==============================
+Banner
+===============================*/
+
+.booking-banner{
+    padding:120px 0;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+.booking-banner::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.65);
+}
+
+.booking-banner .container{
+    position:relative;
+    z-index:2;
+}
+
+.booking-banner-subtitle{
+    display:inline-block;
+    background:var(--primary);
+    color:#111;
+    padding:8px 22px;
+    border-radius:40px;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.booking-banner .wt-title{
+    color:#fff;
+    font-size:58px;
+    font-weight:800;
+    margin-bottom:18px;
+}
+
+.booking-banner-text{
+    color:#ddd;
+    font-size:19px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/*==============================
+Section
+===============================*/
+
+.booking-section{
+    padding:40px 0;
+    background:#fafafa;
+}
+
+.booking-subtitle{
+    display:inline-block;
+    background:#fff7df;
+    color:#c88a00;
+    padding:8px 22px;
+    border-radius:50px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.booking-title{
+    font-size:42px;
+    font-weight:800;
+    color:#111;
+    margin-bottom:20px;
+}
+
+.booking-text{
+    max-width:760px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+}
+
+/*==============================
+Vehicle Card
+===============================*/
+
+.booking-card{
+    background:#fff;
+    border-radius:24px;
+    padding:15px;
+    margin-bottom:35px;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:.35s;
+    border:1px solid #f3f3f3;
+}
+
+.booking-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+}
+
+.booking-image{
+    position:relative;
+    text-align:center;
+}
+
+.booking-image img{
+    width:100%;
+    transition:.4s;
+}
+
+.booking-card:hover img{
+    transform:scale(1.04);
+}
+
+.vehicle-badge{
+    position:absolute;
+    left:25px;
+    top:25px;
+    background:#111;
+    color:#fff;
+    padding:8px 20px;
+    border-radius:40px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.vehicle-type{
+    color:#FDB813;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+.booking-card h3{
+    font-size:36px;
+    margin:12px 0;
+    font-weight:800;
+    color:#111;
+}
+
+.booking-card p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+/*==============================
+Features
+===============================*/
+
+.booking-features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-bottom:30px;
+}
+
+.feature-box{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    background:#fafafa;
+    border:1px solid #efefef;
+    border-radius:14px;
+    padding:6px;
+    transition:.3s;
+}
+
+.feature-box:hover{
+    background:#111;
+    color:#fff;
+    border-color:#111;
+}
+
+.feature-box i{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#FDB813;
+    color:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+}
+
+.feature-box small{
+    display:block;
+    color:#999;
+    font-size:12px;
+}
+
+.feature-box:hover small{
+    color:#ddd;
+}
+
+.feature-box span{
+    display:block;
+    font-weight:700;
+    font-size:14px;
+}
+
+/*==============================
+Buttons
+===============================*/
+
+.booking-actions{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.booking-btn{
+    text-decoration:none;
+    padding:14px 32px;
+    border-radius:50px;
+    font-weight:700;
+    transition:.3s;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:#fff;
+}
+
+.whatsapp-btn:hover{
+    background:#111;
+    color:#fff;
+}
+
+.call-btn{
+    background:#111;
+    color:#fff;
+    border:2px solid #111;
+}
+
+.call-btn:hover{
+    background:#FDB813;
+    color:#111;
+    border-color:#FDB813;
+}
+
+/*==============================
+Bottom CTA
+===============================*/
+
+.booking-bottom{
+    margin-top:60px;
+    background:#111;
+    border-radius:25px;
+    padding:60px;
+    overflow:hidden;
+    position:relative;
+}
+
+.booking-bottom::before{
+    content:"";
+    position:absolute;
+    right:-80px;
+    top:-80px;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    background:#FDB813;
+    opacity:.08;
+}
+
+.booking-bottom h2{
+    color:#fff;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.booking-bottom p{
+    color:#ddd;
+    line-height:1.8;
+    margin-bottom:0;
+}
+
+.booking-main-btn{
+    display:inline-block;
+    background:#FDB813;
+    color:#111;
+    text-decoration:none;
+    padding:18px 40px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.booking-main-btn:hover{
+    background:#fff;
+    color:#111;
+}
+
+/*==============================
+Responsive
+===============================*/
+
+@media(max-width:991px){
+
+.booking-card{
+    padding:30px;
+}
+
+.booking-features{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.booking-banner .wt-title{
+    font-size:42px;
+}
+
+.booking-title{
+    font-size:34px;
+}
+
+.booking-bottom{
+    text-align:center;
+}
+
+}
+
+@media(max-width:767px){
+
+.booking-banner{
+    padding:80px 0;
+}
+
+.booking-banner .wt-title{
+    font-size:34px;
+}
+
+.booking-title{
+    font-size:28px;
+}
+
+.booking-card h3{
+    font-size:28px;
+}
+
+.booking-features{
+    grid-template-columns:1fr;
+}
+
+.booking-actions{
+    flex-direction:column;
+}
+
+.booking-btn{
+    justify-content:center;
+}
+
+.booking-bottom{
+    padding:35px 25px;
+}
+
+.booking-bottom h2{
+    font-size:28px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================================
+ OUR NETWORK
+======================================*/
+
+.network-area{
+    padding:100px 0;
+    background:#0f1117;
+    position:relative;
+    overflow:hidden;
+}
+
+.network-area::before{
+    content:"";
+    position:absolute;
+    width:550px;
+    height:550px;
+    background:#fdb813;
+    filter:blur(180px);
+    opacity:.05;
+    top:-220px;
+    right:-150px;
+}
+
+.network-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.network-heading span{
+    display:inline-block;
+    background:#fdb813;
+    color:#111;
+    padding:8px 22px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:18px;
+}
+
+.network-heading h2{
+    color:#fff;
+    font-size:46px;
+    font-weight:800;
+    margin-bottom:18px;
+}
+
+.network-heading p{
+    max-width:700px;
+    margin:auto;
+    color:#bdbdbd;
+    line-height:1.8;
+}
+
+/*==========================
+MAP
+==========================*/
+
+.india-map-box{
+    position:sticky;
+    top:120px;
+}
+
+.map-bg{
+    position:relative;
+    background:#171a23;
+    border-radius:24px;
+    padding:40px;
+    border:1px solid rgba(255,255,255,.08);
+    text-align:center;
+}
+
+.map-bg img{
+    width:100%;
+    max-width:420px;
+    filter:brightness(1.15);
+}
+
+.belgaum-pin{
+    position:absolute;
+    left:40%;
+    top:40%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    animation:pulse 2s infinite;
+}
+
+.belgaum-pin svg{
+    color:#fdb813;
+    font-size:42px;
+}
+
+.belgaum-pin span{
+    display:block;
+    color:#fff;
+    font-weight:700;
+    margin-top:6px;
+}
+
+@keyframes pulse{
+
+0%{
+transform:translate(-50%,-50%) scale(1);
+}
+
+50%{
+transform:translate(-50%,-50%) scale(1.12);
+}
+
+100%{
+transform:translate(-50%,-50%) scale(1);
+}
+
+}
+
+/*==========================
+Coverage
+==========================*/
+
+.coverage-box{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-top:25px;
+}
+
+.coverage-box div{
+    background:#171a23;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:22px;
+    text-align:center;
+}
+
+.coverage-box h3{
+    color:#fdb813;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom:8px;
+}
+
+.coverage-box p{
+    color:#cfcfcf;
+    margin:0;
+}
+
+/*==========================
+RIGHT SIDE
+==========================*/
+
+.network-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.network-card{
+    display:flex;
+    align-items:center;
+    background:#171a23;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:22px;
+    transition:.35s;
+}
+
+.network-card:hover{
+    transform:translateX(8px);
+    border-color:#fdb813;
+    box-shadow:0 12px 35px rgba(253,184,19,.12);
+}
+
+.network-icon{
+    width:70px;
+    height:70px;
+    min-width:70px;
+    border-radius:50%;
+    background:#fdb813;
+    color:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+}
+
+.network-content{
+    flex:1;
+    padding:0 20px;
+}
+
+.network-content h4{
+    color:#fff;
+    font-size:21px;
+    font-weight:700;
+    margin-bottom:6px;
+}
+
+.network-content span{
+    color:#fdb813;
+    font-size:14px;
+    font-weight:600;
+}
+
+.network-content p{
+    margin-top:6px;
+    color:#bfbfbf;
+    margin-bottom:0;
+}
+
+.network-arrow{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,.12);
+    color:#fdb813;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    transition:.3s;
+}
+
+.network-card:hover .network-arrow{
+    background:#fdb813;
+    color:#111;
+}
+
+/*==========================
+BOTTOM
+==========================*/
+
+.network-footer{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:70px;
+}
+
+.footer-box{
+    background:#171a23;
+    border-radius:20px;
+    padding:28px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.footer-box svg{
+    font-size:34px;
+    color:#fdb813;
+    margin-bottom:15px;
+}
+
+.footer-box h5{
+    color:#fff;
+    margin:0;
+}
+
+/*==========================
+RESPONSIVE
+==========================*/
+
+@media(max-width:991px){
+
+.india-map-box{
+    margin-bottom:40px;
+    position:relative;
+    top:0;
+}
+
+.network-heading h2{
+    font-size:34px;
+}
+
+.network-footer{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:767px){
+
+.network-area{
+    padding:70px 0;
+}
+
+.coverage-box{
+    grid-template-columns:1fr;
+}
+
+.network-card{
+    padding:18px;
+}
+
+.network-icon{
+    width:55px;
+    height:55px;
+    min-width:55px;
+    font-size:18px;
+}
+
+.network-content{
+    padding:0 15px;
+}
+
+.network-content h4{
+    font-size:17px;
+}
+
+.network-arrow{
+    display:none;
+}
+
+.network-heading h2{
+    font-size:28px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   FLEET CARD
+=========================== */
+
+.twm-vehicle-fleet-bx{
+    background:#121212;
+    border-radius:22px;
+    overflow:hidden;
+    border:1px solid rgba(255,186,0,.15);
+    transition:.4s;
+    height:100%;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.twm-vehicle-fleet-bx:hover{
+    transform:translateY(-8px);
+    border-color:#FDB813;
+    box-shadow:0 20px 45px rgba(253,184,19,.25);
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.twm-media{
+    background:#fff;
+    padding:20px;
+}
+
+.twm-media-pic{
+    overflow:hidden;
+}
+
+.twm-media-pic img{
+    width:100%;
+    transition:.5s;
+}
+
+.twm-vehicle-fleet-bx:hover img{
+    transform:scale(1.08);
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.twm-vehicle-fleet-content{
+    padding:30px 25px;
+    background:#121212;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.fleet-title{
+    color:#fff;
+    font-size:26px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+/* ===========================
+   INFO GRID
+=========================== */
+
+.fleet-info{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-bottom:30px;
+}
+
+/* ===========================
+   ITEM
+=========================== */
+
+.fleet-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:#1b1b1b;
+    padding:14px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,.05);
+    transition:.35s;
+}
+
+.fleet-item:hover{
+    background:#FDB813;
+    color:#111;
+}
+
+.fleet-item i{
+    width:42px;
+    height:42px;
+    background:#FDB813;
+    color:#111;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    transition:.35s;
+}
+
+.fleet-item:hover i{
+    background:#111;
+    color:#FDB813;
+}
+
+.fleet-item span{
+    color:#fff;
+    font-size:15px;
+    font-weight:600;
+}
+
+.fleet-item:hover span{
+    color:#111;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.fleet-btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    width:100%;
+    height:55px;
+    background:#FDB813;
+    color:#111;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:17px;
+    font-weight:700;
+    transition:.35s;
+}
+
+.fleet-btn i{
+    transition:.35s;
+}
+
+.fleet-btn:hover{
+    background:#fff;
+    color:#111;
+}
+
+.fleet-btn:hover i{
+    transform:translateX(6px);
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+.twm-cars-section-wrap{
+    background:#f8f8f8;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.wt-title{
+    color:#fff;
+    font-weight:800;
+    font-size:56px;
+    letter-spacing:1px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:991px){
+
+.fleet-info{
+    grid-template-columns:1fr;
+}
+
+.wt-title{
+    font-size:42px;
+}
+
+}
+
+@media(max-width:575px){
+
+.twm-vehicle-fleet-content{
+    padding:22px;
+}
+
+.fleet-title{
+    font-size:22px;
+}
+
+.wt-title{
+    font-size:34px;
+}
+
+.fleet-btn{
+    height:50px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid #fd9526;
+    }
+}
+
+.nav-link {
+    color: #fd9526 !important;
+}
+
+
+.darkcolorr{
+    color: #F4B31B;
+}
+
+
+
+
+
+
+
+
+
+
+.belgaum-service-section{
+    padding:90px 0;
+    background:linear-gradient(180deg,#fffdf5,#ffffff,#fdfdfd);
+}
+
+.belgaum-service-card{
+    position:relative;
+    overflow:hidden;
+    background:#fff;
+    border-radius:25px;
+    transition:.45s;
+    height:100%;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.belgaum-service-card::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:8px;
+    background:linear-gradient(90deg,#FDB813,#ffcc33,#111111);
+}
+
+.belgaum-service-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 30px 60px rgba(0,0,0,.18);
+}
+
+.service-image{
+    overflow:hidden;
+}
+
+.service-image img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    transition:.6s;
+}
+
+.belgaum-service-card:hover .service-image img{
+    transform:scale(1.12);
+}
+
+.service-content{
+    padding:30px;
+    position:relative;
+}
+
+.service-number{
+    position:absolute;
+    top:-28px;
+    right:25px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#FDB813,#ff9900);
+    color:#111;
+    font-weight:800;
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:5px solid white;
+    box-shadow:0 10px 25px rgba(253,184,19,.35);
+}
+
+.service-content h4{
+    font-size:24px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:15px;
+}
+
+.service-content p{
+    color:#666;
+    line-height:28px;
+    margin-bottom:0;
+}
+
+/* Different card colors */
+
+.belgaum-service-card:nth-child(1){
+    border-bottom:5px solid #FDB813;
+}
+
+.belgaum-service-card:nth-child(2){
+    border-bottom:5px solid #111;
+}
+
+.belgaum-service-card:nth-child(3){
+    border-bottom:5px solid #ff9800;
+}
+
+.belgaum-service-card:nth-child(4){
+    border-bottom:5px solid #fbc02d;
+}
+
+.belgaum-service-card:nth-child(5){
+    border-bottom:5px solid #ffb300;
+}
+
+.belgaum-service-card:nth-child(6){
+    border-bottom:5px solid #212121;
+}
+
+.belgaum-service-card:nth-child(7){
+    border-bottom:5px solid #ffca28;
+}
+
+.belgaum-service-card:nth-child(8){
+    border-bottom:5px solid #fb8c00;
+}
+
+.belgaum-service-card:nth-child(9){
+    border-bottom:5px solid #111;
+}
+
+.belgaum-service-card:nth-child(10){
+    border-bottom:5px solid #ffc107;
+}
+
+.belgaum-service-card:nth-child(11){
+    border-bottom:5px solid #ff9800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   GALLERY SECTION
+=========================== */
+
+.fleetCard{
+    position: relative;
+    background: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .4s;
+    height: 100%;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+    border: 1px solid #ececec;
+}
+
+.fleetCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0,0,0,.18);
+}
+
+.fleetCard::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg,#FDB813,#ffcf33,#111);
+    z-index: 10;
+}
+
+/* ===========================
+   BADGE
+=========================== */
+
+.fleetBadge{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 100;
+    background: linear-gradient(135deg,#FDB813,#ff9800);
+    color: #111;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: .5px;
+    box-shadow: 0 10px 25px rgba(253,184,19,.35);
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.fleetImage{
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.fleetImage img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.fleetCard:hover .fleetImage img{
+    transform: scale(1.08);
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.fleetContent{
+    padding: 25px;
+}
+
+.fleetContent h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+/* ===========================
+   BOTTOM
+=========================== */
+
+.fleetBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fleetBottom span{
+    color: #777;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.fleetBottom button{
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg,#111,#333);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fleetBottom button:hover{
+    background: linear-gradient(135deg,#FDB813,#ff9800);
+    color: #111;
+}
+
+.fleetBottom button i{
+    transition: .3s;
+}
+
+.fleetBottom button:hover i{
+    transform: translateX(4px);
+}
+
+/* ===========================
+   LIGHTBOX
+=========================== */
+
+.lightbox{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.lightbox-img{
+    max-width: 85%;
+    max-height: 85vh;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.6);
+}
+
+.close{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.close:hover{
+    color: #FDB813;
+    transform: rotate(90deg);
+}
+
+.prev,
+.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 55px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+}
+
+.prev{
+    left: 40px;
+}
+
+.next{
+    right: 40px;
+}
+
+.prev:hover,
+.next:hover{
+    color: #FDB813;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:991px){
+
+.fleetImage img{
+    height:220px;
+}
+
+}
+
+@media(max-width:768px){
+
+.fleetContent{
+    padding:20px;
+}
+
+.fleetContent h4{
+    font-size:20px;
+}
+
+.fleetBottom{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+}
+
+.lightbox-img{
+    max-width:95%;
+}
+
+.prev,
+.next{
+    font-size:38px;
+}
+
+.prev{
+    left:15px;
+}
+
+.next{
+    right:15px;
+}
+
+}
+
+@media(max-width:576px){
+
+.fleetImage img{
+    height:200px;
+}
+
+.fleetBadge{
+    font-size:11px;
+    padding:6px 14px;
+}
+
+.fleetBottom button{
+    width:100%;
+    justify-content:center;
+}
+
+}
+
+.borderr{
+    border: 4px solid  #F4B31B;
 }
