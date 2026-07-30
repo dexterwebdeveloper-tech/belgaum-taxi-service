@@ -442,8 +442,8 @@ const productSchema = {
 
 
             <section>
-                <div className="container-fluid" >
-                    <div className="row container-fluid">
+                <div className="container-fluid p-0" >
+                    <div className="row container-fluid px-md-2">
                         <div className="col-12 col-md-7 bg-foootr">
                             <img src='/images/keyword/11.jpg' alt='img' className='img-fluid' />
                             <h3 className="py-1"
