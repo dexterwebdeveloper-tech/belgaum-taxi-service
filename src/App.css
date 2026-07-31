@@ -4270,3 +4270,95 @@ RESPONSIVE
 .borderr{
     border: 4px solid  #F4B31B;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-avatar{
+    width:65px;
+    height:65px;
+    min-width:65px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#ceb681,#d0b988);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:22px;
+    font-weight:700;
+    text-transform:uppercase;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.testimonials-card__author__title{
+    margin:0;
+    font-size:18px;
+    font-weight:600;
+}
+
+.testimonials-card__author__dec{
+    display:block;
+    margin-top:4px;
+    font-size:14px;
+    color:#777;
+}
+
+.testimonials-card__rating i{
+    color:#FFC107;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+.borderrr {
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 35px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .logoo {
+    width: 150px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .logoo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .logoo {
+    width: 100px;
+  }
+}

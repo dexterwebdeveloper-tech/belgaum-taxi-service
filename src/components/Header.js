@@ -72,6 +72,14 @@ const Header = () => {
                     <a href="https://in.pinterest.com/belgaumtaxiservices/" target="_blank" rel="noreferrer">
                       <i className="fab fa-pinterest-p text-white"></i>
                     </a>
+
+                    <a
+  href="https://www.youtube.com/@BelgaumTaxiServices"
+  target="_blank"
+  rel="noreferrer"
+>
+  <i className="fab fa-youtube text-white"></i>
+</a>
                   </li>
 
                 </ul>
@@ -91,7 +99,8 @@ const Header = () => {
           <Container>
 
             <Link to="/" onClick={closeNav}>
-              <img src="/images/logo.jpg" className='logoo' alt="logo" />
+              <img src="/images/logo.jpg" className='logoo d-none d-md-block' alt="logo" />
+              <img src="/images/logoo.jpg" className='logoo d-block d-md-none' alt="logo" />
             </Link>
 
             <Navbar.Toggle aria-controls="main_nav" onClick={toggleNav}>

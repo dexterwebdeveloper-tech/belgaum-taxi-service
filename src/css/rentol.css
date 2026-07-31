@@ -7260,7 +7260,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(../images/shapes/testi-border.png);
+  /* background-image: url(../images/shapes/testi-border.png); */
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
@@ -7354,7 +7354,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--rentol-black, #212121);
 }
 .testimonials-card--one::after {
-  background-image: url(../images/shapes/testi-border-2-1.png);
+  /* background-image: url(../images/shapes/testi-border-2-1.png); */
 }
 .testimonials-card--one .testimonials-card__text,
 .testimonials-card--one .testimonials-card__quite {

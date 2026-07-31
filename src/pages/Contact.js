@@ -160,20 +160,10 @@ const Contact = () => {
 
       <section className="contact-map">
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2923.154481297566!2d74.5328889!3d15.8788056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDUyJzQzLjciTiA3NMKwMzEnNTguNCJF!5e1!3m2!1sen!2sin!4v1785324307499!5m2!1sen!2sin"
-          width="100%"
-          height="450"
-          style={{
-            border: 0
-          }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="strict-origin-when-cross-origin"
-          title="Belgaum Taxi Service Location"
-        ></iframe>
+     
 
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11693.657999186493!2d74.510496181882!3d15.860879060016769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf615f0a390e6f%3A0xc95cb1104f323ae4!2sBelgaum%20Car%20Rental%20Service!5e1!3m2!1sen!2sin!4v1785463093207!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </section>
 
 
